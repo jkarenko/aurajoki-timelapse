@@ -3,6 +3,13 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    paths:
+      - "src/**"
+      - "public/**"
+      - "next.config.ts"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - ".github/workflows/deploy.yml"
 
 permissions:
   contents: read
