@@ -1,3 +1,11 @@
 {
-  "decisions": []
+  "decisions": [
+    {
+      "id": "ADR-001",
+      "title": "Image Registration Pipeline",
+      "decision": "Python opencv-python via uv for offline preprocessing; SIFT + FLANN + RANSAC; pre-warp to 1500px; Next.js + shadcn/ui + Pencil for web app",
+      "phase": "1",
+      "timestamp": "2026-03-06T14:10:00.000Z"
+    }
+  ]
 }
