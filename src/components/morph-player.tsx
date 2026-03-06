@@ -51,7 +51,8 @@ export function MorphPlayer({
       ref={canvasRef}
       width={canvasWidth}
       height={canvasHeight}
-      className="w-full h-auto rounded-lg"
+      className="max-w-full max-h-full object-contain"
+      style={{ aspectRatio: `${canvasWidth}/${canvasHeight}` }}
     />
   );
 }
