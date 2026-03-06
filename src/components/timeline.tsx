@@ -2,6 +2,7 @@
 
 import { Slider } from "@/components/ui/slider";
 import type { ImageEntry } from "@/hooks/use-image-preloader";
+import { formatDate, formatDateShort } from "@/lib/format-date";
 
 interface TimelineProps {
   entries: ImageEntry[];
@@ -12,10 +13,13 @@ interface TimelineProps {
 
 export function Timeline({ entries, currentFrame, alpha, onSeek }: TimelineProps) {
   const progress = currentFrame + alpha;
+
+  const startDate = entries[0]?.date;
+  const endDate = entries[entries.length - 1]?.date;
   const currentEntry = entries[currentFrame];
 
   return (
-    <div className="space-y-2">
+    <div className="space-y-1">
       <Slider
         value={[progress]}
         min={0}
@@ -24,12 +28,12 @@ export function Timeline({ entries, currentFrame, alpha, onSeek }: TimelineProps
         onValueChange={([v]) => onSeek(v)}
         className="w-full"
       />
-      <div className="flex justify-between text-xs text-muted-foreground">
-        <span>{entries[0]?.date ?? ""}</span>
-        <span className="font-medium text-foreground">
-          {currentEntry?.date ?? ""}
+      <div className="flex justify-between text-[11px] text-white/40 font-light tracking-wider">
+        <span>{startDate ? formatDateShort(startDate) : ""}</span>
+        <span className="text-white/70">
+          {currentEntry?.date ? formatDate(currentEntry.date) : ""}
         </span>
-        <span>{entries[entries.length - 1]?.date ?? ""}</span>
+        <span>{endDate ? formatDateShort(endDate) : ""}</span>
       </div>
     </div>
   );
