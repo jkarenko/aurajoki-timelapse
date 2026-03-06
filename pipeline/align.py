@@ -25,12 +25,13 @@ FLANN_CHECKS = 200
 LOWE_RATIO = 0.75
 RANSAC_REPROJ_THRESHOLD = 5.0
 MIN_GOOD_MATCHES = 15
-MIN_INLIERS = 20
+MIN_INLIERS = 30
 
 # Geometric validation thresholds
 MAX_ROTATION_DEG = 12.0
 MAX_SCALE_DEVIATION = 0.25  # allow 0.75x to 1.25x scale
 MAX_TRANSLATION_FRAC = 0.30  # max 30% of image dimension shift
+MAX_CENTER_DRIFT = 0.15  # warped center must be within 15% of reference center
 
 # Canvas padding around reference frame (fraction of ref dimensions)
 CANVAS_PADDING_FRAC = 0.10
@@ -130,6 +131,16 @@ def validate_affine(M: np.ndarray, img_h: int, img_w: int) -> tuple[bool, str]:
     max_ty = img_h * MAX_TRANSLATION_FRAC
     if tx > max_tx or ty > max_ty:
         return False, f"translation ({tx:.0f}, {ty:.0f}) too large"
+
+    # Check where the image center maps to — it should stay near the reference center
+    src_center = np.array([img_w / 2, img_h / 2, 1.0])
+    H = np.vstack([M, [0, 0, 1]])
+    dst_center = H @ src_center
+    ref_cx, ref_cy = img_w / 2, img_h / 2
+    center_dx = abs(dst_center[0] - ref_cx) / img_w
+    center_dy = abs(dst_center[1] - ref_cy) / img_h
+    if center_dx > MAX_CENTER_DRIFT or center_dy > MAX_CENTER_DRIFT:
+        return False, f"center drift ({center_dx:.2f}, {center_dy:.2f}) > {MAX_CENTER_DRIFT}"
 
     return True, "ok"
 
