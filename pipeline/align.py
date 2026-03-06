@@ -465,7 +465,7 @@ def try_chain_alignment(
     return None, 0, "no chain found"
 
 
-def align_images(image_dir: Path, output_dir: Path, transforms_path: Path):
+def align_images(image_dir: Path, output_dir: Path, transforms_path: Path, quality_threshold: float = MIN_EDGE_OVERLAP):
     """Main alignment pipeline."""
     extensions = {".jpg", ".jpeg", ".webp", ".png"}
     image_paths = sorted(
@@ -642,12 +642,12 @@ def align_images(image_dir: Path, output_dir: Path, transforms_path: Path):
         if i != ref_idx:
             overlap = check_edge_overlap(warped, ref_warped)
             entry["edge_overlap"] = round(overlap, 3)
-            if overlap < MIN_EDGE_OVERLAP:
+            if overlap < quality_threshold:
                 entry["skipped"] = True
                 entry["quality"] = "quality-rejected"
                 manifest_images.append(entry)
                 quality_rejected += 1
-                print(f"  {p.name}: SKIPPED (edge overlap {overlap:.1%} < {MIN_EDGE_OVERLAP:.0%})")
+                print(f"  {p.name}: SKIPPED (edge overlap {overlap:.1%} < {quality_threshold:.0%})")
                 continue
 
         out_path = output_dir / f"{p.stem}.webp"
@@ -682,6 +682,15 @@ def align_images(image_dir: Path, output_dir: Path, transforms_path: Path):
 
 
 if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Align images to a reference frame.")
+    parser.add_argument(
+        "--quality-threshold", type=float, default=MIN_EDGE_OVERLAP,
+        help=f"Min edge-overlap score to keep an image (0.0–1.0, default {MIN_EDGE_OVERLAP})",
+    )
+    args = parser.parse_args()
+
     project_root = Path(__file__).parent.parent
     image_dir = project_root / "images"
     output_dir = project_root / "public" / "aligned"
@@ -692,4 +701,4 @@ if __name__ == "__main__":
         print("Create an 'images/' directory and place source photos there.")
         sys.exit(1)
 
-    align_images(image_dir, output_dir, transforms_path)
+    align_images(image_dir, output_dir, transforms_path, quality_threshold=args.quality_threshold)
