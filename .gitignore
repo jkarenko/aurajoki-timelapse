@@ -49,9 +49,6 @@ next-env.d.ts
 !/src/**/*.webp
 !/public/**/*.webp
 
-# aligned output images
-/public/aligned/
-
 # python
 /pipeline/.venv/
 __pycache__/

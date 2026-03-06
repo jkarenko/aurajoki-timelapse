@@ -5,7 +5,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 /** Returns true when UI should be visible (mouse recently moved or not playing). */
 export function useIdleHide(playing: boolean, timeoutMs = 3000) {
   const [visible, setVisible] = useState(true);
-  const timerRef = useRef<ReturnType<typeof setTimeout>>();
+  const timerRef = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   const resetTimer = useCallback(() => {
     setVisible(true);
