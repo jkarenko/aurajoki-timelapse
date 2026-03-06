@@ -42,6 +42,12 @@ next-env.d.ts
 
 # source images (too large for git)
 /images/
+*.jpg
+*.JPG
+*.jpeg
+*.webp
+!/src/**/*.webp
+!/public/**/*.webp
 
 # aligned output images
 /public/aligned/

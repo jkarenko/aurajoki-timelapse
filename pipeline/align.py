@@ -180,16 +180,24 @@ def align_images(
         homographies[i] = {"H": H, "inliers": inliers, "quality": quality}
         print(f"  {p.name}: {quality} ({inliers} inliers, {len(good)} good matches)")
 
-    # Step 3: Compute global canvas bounds
-    print("\nComputing canvas bounds...")
+    # Step 3: Compute global canvas bounds (only from "ok" and "reference" quality)
+    print("\nComputing canvas bounds (using only good-quality homographies)...")
     all_corners = [np.float32([[0, 0], [ref_w, 0], [ref_w, ref_h], [0, ref_h]])]
+
+    # Max allowed expansion: 2x the reference image dimensions in any direction
+    max_extent = max(ref_w, ref_h) * 2
 
     for i in range(len(image_paths)):
         data = homographies[i]
-        if data["H"] is None:
+        if data["H"] is None or data["quality"] not in ("ok", "reference"):
             continue
         h_i, w_i = images[i].shape[:2]
         corners = compute_warped_bounds(data["H"], h_i, w_i)
+        # Sanity check: skip if any corner is wildly out of range
+        if np.any(np.abs(corners) > max_extent):
+            print(f"  Skipping {image_paths[i].name} from bounds (extreme warp)")
+            homographies[i]["quality"] = "low"
+            continue
         all_corners.append(corners)
 
     all_corners = np.vstack(all_corners)
