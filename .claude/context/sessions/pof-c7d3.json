@@ -1,0 +1,14 @@
+{
+  "id": "pof-c7d3",
+  "projectId": "proj-e4a1",
+  "type": "kickoff",
+  "currentPhase": "0.1",
+  "status": "initializing",
+  "blockers": [],
+  "lastCheckpoint": null,
+  "verbose": false,
+  "createdAt": "2026-03-06T14:00:00.000Z",
+  "lastActivity": "2026-03-06T14:00:00.000Z",
+  "project": "Aurajoki Timelapse Morph",
+  "story": null
+}
