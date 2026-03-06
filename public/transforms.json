@@ -12,10 +12,11 @@
       "date": "2025-03-07",
       "index": 0,
       "is_reference": false,
-      "quality": "ok",
+      "quality": "quality-rejected",
       "inliers": 45,
-      "method": "direct",
-      "skipped": false
+      "method": "direct-affine",
+      "edge_overlap": 0.647,
+      "skipped": true
     },
     {
       "filename": "20250310_063000.webp",
@@ -23,10 +24,11 @@
       "date": "2025-03-10",
       "index": 1,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 33,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 120,
+      "method": "chained via 0",
+      "edge_overlap": 0.496,
+      "skipped": true
     },
     {
       "filename": "20250313_063000.webp",
@@ -34,9 +36,10 @@
       "date": "2025-03-13",
       "index": 2,
       "is_reference": false,
-      "quality": "failed",
-      "inliers": 0,
-      "method": "none",
+      "quality": "quality-rejected",
+      "inliers": 164,
+      "method": "chained via 1",
+      "edge_overlap": 0.513,
       "skipped": true
     },
     {
@@ -56,10 +59,11 @@
       "date": "2025-03-19",
       "index": 4,
       "is_reference": false,
-      "quality": "chained",
-      "inliers": 209,
+      "quality": "quality-rejected",
+      "inliers": 204,
       "method": "chained via 5",
-      "skipped": false
+      "edge_overlap": 0.553,
+      "skipped": true
     },
     {
       "filename": "20250401_063000.webp",
@@ -68,8 +72,9 @@
       "index": 5,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 42,
-      "method": "direct",
+      "inliers": 44,
+      "method": "direct-affine",
+      "edge_overlap": 0.771,
       "skipped": false
     },
     {
@@ -78,10 +83,11 @@
       "date": "2025-04-02",
       "index": 6,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 30,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 189,
+      "method": "chained via 5",
+      "edge_overlap": 0.672,
+      "skipped": true
     },
     {
       "filename": "20250403_063000.webp",
@@ -90,8 +96,9 @@
       "index": 7,
       "is_reference": false,
       "quality": "chained",
-      "inliers": 183,
+      "inliers": 171,
       "method": "chained via 6",
+      "edge_overlap": 0.711,
       "skipped": false
     },
     {
@@ -100,10 +107,11 @@
       "date": "2025-04-04",
       "index": 8,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 30,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 138,
+      "method": "chained via 7",
+      "edge_overlap": 0.646,
+      "skipped": true
     },
     {
       "filename": "20250408_063000.webp",
@@ -113,7 +121,8 @@
       "is_reference": false,
       "quality": "ok",
       "inliers": 43,
-      "method": "direct",
+      "method": "direct-affine",
+      "edge_overlap": 0.705,
       "skipped": false
     },
     {
@@ -123,8 +132,9 @@
       "index": 10,
       "is_reference": false,
       "quality": "chained",
-      "inliers": 348,
+      "inliers": 337,
       "method": "chained via 9",
+      "edge_overlap": 0.756,
       "skipped": false
     },
     {
@@ -133,10 +143,11 @@
       "date": "2025-04-15",
       "index": 11,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 41,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 44,
+      "method": "direct-affine",
+      "edge_overlap": 0.691,
+      "skipped": true
     },
     {
       "filename": "20250416_063000.webp",
@@ -144,9 +155,10 @@
       "date": "2025-04-16",
       "index": 12,
       "is_reference": false,
-      "quality": "failed",
-      "inliers": 0,
-      "method": "none",
+      "quality": "quality-rejected",
+      "inliers": 59,
+      "method": "chained via 11",
+      "edge_overlap": 0.619,
       "skipped": true
     },
     {
@@ -155,10 +167,11 @@
       "date": "2025-05-02",
       "index": 13,
       "is_reference": false,
-      "quality": "chained",
-      "inliers": 42,
+      "quality": "quality-rejected",
+      "inliers": 40,
       "method": "chained via 11",
-      "skipped": false
+      "edge_overlap": 0.668,
+      "skipped": true
     },
     {
       "filename": "20250505_063000.webp",
@@ -166,10 +179,11 @@
       "date": "2025-05-05",
       "index": 14,
       "is_reference": false,
-      "quality": "chained",
-      "inliers": 110,
+      "quality": "quality-rejected",
+      "inliers": 106,
       "method": "chained via 13",
-      "skipped": false
+      "edge_overlap": 0.663,
+      "skipped": true
     },
     {
       "filename": "20250506_063000.webp",
@@ -177,10 +191,11 @@
       "date": "2025-05-06",
       "index": 15,
       "is_reference": false,
-      "quality": "chained",
-      "inliers": 94,
+      "quality": "quality-rejected",
+      "inliers": 97,
       "method": "chained via 14",
-      "skipped": false
+      "edge_overlap": 0.58,
+      "skipped": true
     },
     {
       "filename": "20250507_063000.webp",
@@ -188,10 +203,11 @@
       "date": "2025-05-07",
       "index": 16,
       "is_reference": false,
-      "quality": "chained",
-      "inliers": 90,
+      "quality": "quality-rejected",
+      "inliers": 116,
       "method": "chained via 15",
-      "skipped": false
+      "edge_overlap": 0.676,
+      "skipped": true
     },
     {
       "filename": "20250508_063000.webp",
@@ -199,10 +215,11 @@
       "date": "2025-05-08",
       "index": 17,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 33,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 113,
+      "method": "chained via 16",
+      "edge_overlap": 0.56,
+      "skipped": true
     },
     {
       "filename": "20250509_063000.webp",
@@ -210,9 +227,10 @@
       "date": "2025-05-09",
       "index": 18,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 42,
-      "method": "direct",
+      "quality": "chained",
+      "inliers": 133,
+      "method": "chained via 17",
+      "edge_overlap": 0.707,
       "skipped": false
     },
     {
@@ -222,8 +240,9 @@
       "index": 19,
       "is_reference": false,
       "quality": "chained",
-      "inliers": 54,
+      "inliers": 47,
       "method": "chained via 18",
+      "edge_overlap": 0.702,
       "skipped": false
     },
     {
@@ -232,10 +251,11 @@
       "date": "2025-05-13",
       "index": 20,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 46,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 44,
+      "method": "direct-affine",
+      "edge_overlap": 0.677,
+      "skipped": true
     },
     {
       "filename": "20250514_063000.webp",
@@ -243,10 +263,11 @@
       "date": "2025-05-14",
       "index": 21,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 34,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 555,
+      "method": "chained via 20",
+      "edge_overlap": 0.698,
+      "skipped": true
     },
     {
       "filename": "20250515_063000.webp",
@@ -254,10 +275,11 @@
       "date": "2025-05-15",
       "index": 22,
       "is_reference": false,
-      "quality": "ok",
+      "quality": "quality-rejected",
       "inliers": 45,
-      "method": "direct",
-      "skipped": false
+      "method": "direct-affine",
+      "edge_overlap": 0.661,
+      "skipped": true
     },
     {
       "filename": "20250516_063000.webp",
@@ -265,10 +287,11 @@
       "date": "2025-05-16",
       "index": 23,
       "is_reference": false,
-      "quality": "chained",
-      "inliers": 105,
+      "quality": "quality-rejected",
+      "inliers": 106,
       "method": "chained via 21",
-      "skipped": false
+      "edge_overlap": 0.646,
+      "skipped": true
     },
     {
       "filename": "20250519_063000.webp",
@@ -276,10 +299,11 @@
       "date": "2025-05-19",
       "index": 24,
       "is_reference": false,
-      "quality": "chained",
+      "quality": "quality-rejected",
       "inliers": 112,
       "method": "chained via 23",
-      "skipped": false
+      "edge_overlap": 0.657,
+      "skipped": true
     },
     {
       "filename": "20250520_063000.webp",
@@ -287,10 +311,11 @@
       "date": "2025-05-20",
       "index": 25,
       "is_reference": false,
-      "quality": "chained",
-      "inliers": 95,
+      "quality": "quality-rejected",
+      "inliers": 102,
       "method": "chained via 24",
-      "skipped": false
+      "edge_overlap": 0.65,
+      "skipped": true
     },
     {
       "filename": "20250521_063000.webp",
@@ -298,10 +323,11 @@
       "date": "2025-05-21",
       "index": 26,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 31,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 147,
+      "method": "chained via 25",
+      "edge_overlap": 0.569,
+      "skipped": true
     },
     {
       "filename": "20250522_063000.webp",
@@ -309,10 +335,11 @@
       "date": "2025-05-22",
       "index": 27,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 39,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 101,
+      "method": "chained via 26",
+      "edge_overlap": 0.661,
+      "skipped": true
     },
     {
       "filename": "20250523_063000.webp",
@@ -320,10 +347,11 @@
       "date": "2025-05-23",
       "index": 28,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 40,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 48,
+      "method": "direct-affine",
+      "edge_overlap": 0.664,
+      "skipped": true
     },
     {
       "filename": "20250526_063000.webp",
@@ -331,10 +359,11 @@
       "date": "2025-05-26",
       "index": 29,
       "is_reference": false,
-      "quality": "chained",
-      "inliers": 41,
+      "quality": "quality-rejected",
+      "inliers": 40,
       "method": "chained via 28",
-      "skipped": false
+      "edge_overlap": 0.697,
+      "skipped": true
     },
     {
       "filename": "20250530_063000.webp",
@@ -342,10 +371,11 @@
       "date": "2025-05-30",
       "index": 30,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 37,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 42,
+      "method": "direct-affine",
+      "edge_overlap": 0.607,
+      "skipped": true
     },
     {
       "filename": "20250801_063000.webp",
@@ -353,10 +383,11 @@
       "date": "2025-08-01",
       "index": 31,
       "is_reference": false,
-      "quality": "chained",
-      "inliers": 106,
+      "quality": "quality-rejected",
+      "inliers": 102,
       "method": "chained via 30",
-      "skipped": false
+      "edge_overlap": 0.634,
+      "skipped": true
     },
     {
       "filename": "20250812_063000.webp",
@@ -364,10 +395,11 @@
       "date": "2025-08-12",
       "index": 32,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 42,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 41,
+      "method": "direct-affine",
+      "edge_overlap": 0.596,
+      "skipped": true
     },
     {
       "filename": "20250819_063000.webp",
@@ -375,10 +407,11 @@
       "date": "2025-08-19",
       "index": 33,
       "is_reference": false,
-      "quality": "chained",
-      "inliers": 145,
+      "quality": "quality-rejected",
+      "inliers": 147,
       "method": "chained via 32",
-      "skipped": false
+      "edge_overlap": 0.582,
+      "skipped": true
     },
     {
       "filename": "20250825_063000.webp",
@@ -386,10 +419,11 @@
       "date": "2025-08-25",
       "index": 34,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 47,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 49,
+      "method": "direct-affine",
+      "edge_overlap": 0.631,
+      "skipped": true
     },
     {
       "filename": "20250826_063000.webp",
@@ -397,10 +431,11 @@
       "date": "2025-08-26",
       "index": 35,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 46,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 47,
+      "method": "direct-affine",
+      "edge_overlap": 0.577,
+      "skipped": true
     },
     {
       "filename": "20250827_063000.webp",
@@ -410,7 +445,8 @@
       "is_reference": false,
       "quality": "ok",
       "inliers": 55,
-      "method": "direct",
+      "method": "direct-affine",
+      "edge_overlap": 0.747,
       "skipped": false
     },
     {
@@ -419,10 +455,11 @@
       "date": "2025-08-28",
       "index": 37,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 31,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 128,
+      "method": "chained via 36",
+      "edge_overlap": 0.592,
+      "skipped": true
     },
     {
       "filename": "20250829_063000.webp",
@@ -430,10 +467,11 @@
       "date": "2025-08-29",
       "index": 38,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 36,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 62,
+      "method": "chained via 37",
+      "edge_overlap": 0.684,
+      "skipped": true
     },
     {
       "filename": "20250901_063000.webp",
@@ -441,10 +479,11 @@
       "date": "2025-09-01",
       "index": 39,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 41,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 233,
+      "method": "chained via 38",
+      "edge_overlap": 0.663,
+      "skipped": true
     },
     {
       "filename": "20250902_063000.webp",
@@ -452,10 +491,11 @@
       "date": "2025-09-02",
       "index": 40,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 46,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 48,
+      "method": "direct-affine",
+      "edge_overlap": 0.674,
+      "skipped": true
     },
     {
       "filename": "20250904_063000.webp",
@@ -463,10 +503,11 @@
       "date": "2025-09-04",
       "index": 41,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 49,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 58,
+      "method": "direct-affine",
+      "edge_overlap": 0.696,
+      "skipped": true
     },
     {
       "filename": "20250905_063000.webp",
@@ -474,10 +515,11 @@
       "date": "2025-09-05",
       "index": 42,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 56,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 52,
+      "method": "direct-affine",
+      "edge_overlap": 0.691,
+      "skipped": true
     },
     {
       "filename": "20250908_063000.webp",
@@ -485,10 +527,11 @@
       "date": "2025-09-08",
       "index": 43,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 65,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 70,
+      "method": "direct-affine",
+      "edge_overlap": 0.682,
+      "skipped": true
     },
     {
       "filename": "20250909_063000.webp",
@@ -496,10 +539,11 @@
       "date": "2025-09-09",
       "index": 44,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 42,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 737,
+      "method": "chained via 43",
+      "edge_overlap": 0.669,
+      "skipped": true
     },
     {
       "filename": "20250910_063000.webp",
@@ -507,10 +551,11 @@
       "date": "2025-09-10",
       "index": 45,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 57,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 55,
+      "method": "direct-affine",
+      "edge_overlap": 0.654,
+      "skipped": true
     },
     {
       "filename": "20250911_063000.webp",
@@ -530,8 +575,9 @@
       "index": 47,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 121,
-      "method": "direct",
+      "inliers": 149,
+      "method": "direct-homography",
+      "edge_overlap": 0.753,
       "skipped": false
     },
     {
@@ -541,8 +587,9 @@
       "index": 48,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 131,
-      "method": "direct",
+      "inliers": 136,
+      "method": "direct-affine",
+      "edge_overlap": 0.737,
       "skipped": false
     },
     {
@@ -552,8 +599,9 @@
       "index": 49,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 107,
-      "method": "direct",
+      "inliers": 139,
+      "method": "direct-homography",
+      "edge_overlap": 0.725,
       "skipped": false
     },
     {
@@ -563,8 +611,9 @@
       "index": 50,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 152,
-      "method": "direct",
+      "inliers": 143,
+      "method": "direct-affine",
+      "edge_overlap": 0.736,
       "skipped": false
     },
     {
@@ -573,10 +622,11 @@
       "date": "2025-09-18",
       "index": 51,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 80,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 83,
+      "method": "direct-affine",
+      "edge_overlap": 0.663,
+      "skipped": true
     },
     {
       "filename": "20250919_063000.webp",
@@ -584,10 +634,11 @@
       "date": "2025-09-19",
       "index": 52,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 74,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 73,
+      "method": "direct-affine",
+      "edge_overlap": 0.609,
+      "skipped": true
     },
     {
       "filename": "20250922_063000.webp",
@@ -597,7 +648,8 @@
       "is_reference": false,
       "quality": "ok",
       "inliers": 137,
-      "method": "direct",
+      "method": "direct-affine",
+      "edge_overlap": 0.725,
       "skipped": false
     },
     {
@@ -606,10 +658,11 @@
       "date": "2025-09-23",
       "index": 54,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 48,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 49,
+      "method": "direct-affine",
+      "edge_overlap": 0.632,
+      "skipped": true
     },
     {
       "filename": "20250924_063000.webp",
@@ -618,8 +671,9 @@
       "index": 55,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 194,
-      "method": "direct",
+      "inliers": 209,
+      "method": "direct-affine",
+      "edge_overlap": 0.782,
       "skipped": false
     },
     {
@@ -628,10 +682,11 @@
       "date": "2025-09-25",
       "index": 56,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 141,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 149,
+      "method": "direct-affine",
+      "edge_overlap": 0.639,
+      "skipped": true
     },
     {
       "filename": "20250926_063000.webp",
@@ -640,8 +695,9 @@
       "index": 57,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 156,
-      "method": "direct",
+      "inliers": 221,
+      "method": "direct-homography",
+      "edge_overlap": 0.786,
       "skipped": false
     },
     {
@@ -651,8 +707,9 @@
       "index": 58,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 134,
-      "method": "direct",
+      "inliers": 132,
+      "method": "direct-affine",
+      "edge_overlap": 0.705,
       "skipped": false
     },
     {
@@ -661,10 +718,11 @@
       "date": "2025-09-30",
       "index": 59,
       "is_reference": false,
-      "quality": "ok",
+      "quality": "quality-rejected",
       "inliers": 75,
-      "method": "direct",
-      "skipped": false
+      "method": "direct-affine",
+      "edge_overlap": 0.641,
+      "skipped": true
     },
     {
       "filename": "20251001_063000.webp",
@@ -673,8 +731,9 @@
       "index": 60,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 234,
-      "method": "direct",
+      "inliers": 223,
+      "method": "direct-affine",
+      "edge_overlap": 0.786,
       "skipped": false
     },
     {
@@ -684,8 +743,9 @@
       "index": 61,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 180,
-      "method": "direct",
+      "inliers": 176,
+      "method": "direct-affine",
+      "edge_overlap": 0.809,
       "skipped": false
     },
     {
@@ -695,8 +755,9 @@
       "index": 62,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 153,
-      "method": "direct",
+      "inliers": 143,
+      "method": "direct-affine",
+      "edge_overlap": 0.788,
       "skipped": false
     },
     {
@@ -706,8 +767,9 @@
       "index": 63,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 120,
-      "method": "direct",
+      "inliers": 124,
+      "method": "direct-affine",
+      "edge_overlap": 0.844,
       "skipped": false
     },
     {
@@ -717,8 +779,9 @@
       "index": 64,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 215,
-      "method": "direct",
+      "inliers": 227,
+      "method": "direct-affine",
+      "edge_overlap": 0.792,
       "skipped": false
     },
     {
@@ -728,8 +791,9 @@
       "index": 65,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 250,
-      "method": "direct",
+      "inliers": 230,
+      "method": "direct-affine",
+      "edge_overlap": 0.771,
       "skipped": false
     },
     {
@@ -739,8 +803,9 @@
       "index": 66,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 270,
-      "method": "direct",
+      "inliers": 359,
+      "method": "direct-homography",
+      "edge_overlap": 0.817,
       "skipped": false
     },
     {
@@ -750,8 +815,9 @@
       "index": 67,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 245,
-      "method": "direct",
+      "inliers": 233,
+      "method": "direct-affine",
+      "edge_overlap": 0.805,
       "skipped": false
     },
     {
@@ -761,8 +827,9 @@
       "index": 68,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 211,
-      "method": "direct",
+      "inliers": 210,
+      "method": "direct-affine",
+      "edge_overlap": 0.775,
       "skipped": false
     },
     {
@@ -772,8 +839,9 @@
       "index": 69,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 264,
-      "method": "direct",
+      "inliers": 399,
+      "method": "direct-homography",
+      "edge_overlap": 0.806,
       "skipped": false
     },
     {
@@ -783,8 +851,9 @@
       "index": 70,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 204,
-      "method": "direct",
+      "inliers": 198,
+      "method": "direct-affine",
+      "edge_overlap": 0.786,
       "skipped": false
     },
     {
@@ -794,8 +863,9 @@
       "index": 71,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 281,
-      "method": "direct",
+      "inliers": 393,
+      "method": "direct-homography",
+      "edge_overlap": 0.818,
       "skipped": false
     },
     {
@@ -805,8 +875,9 @@
       "index": 72,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 316,
-      "method": "direct",
+      "inliers": 382,
+      "method": "direct-homography",
+      "edge_overlap": 0.85,
       "skipped": false
     },
     {
@@ -816,8 +887,9 @@
       "index": 73,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 332,
-      "method": "direct",
+      "inliers": 337,
+      "method": "direct-homography",
+      "edge_overlap": 0.869,
       "skipped": false
     },
     {
@@ -827,8 +899,9 @@
       "index": 74,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 254,
-      "method": "direct",
+      "inliers": 243,
+      "method": "direct-affine",
+      "edge_overlap": 0.85,
       "skipped": false
     },
     {
@@ -838,8 +911,9 @@
       "index": 75,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 220,
-      "method": "direct",
+      "inliers": 232,
+      "method": "direct-affine",
+      "edge_overlap": 0.792,
       "skipped": false
     },
     {
@@ -849,8 +923,9 @@
       "index": 76,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 163,
-      "method": "direct",
+      "inliers": 146,
+      "method": "direct-affine",
+      "edge_overlap": 0.801,
       "skipped": false
     },
     {
@@ -860,8 +935,9 @@
       "index": 77,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 169,
-      "method": "direct",
+      "inliers": 185,
+      "method": "direct-affine",
+      "edge_overlap": 0.814,
       "skipped": false
     },
     {
@@ -871,8 +947,9 @@
       "index": 78,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 370,
-      "method": "direct",
+      "inliers": 368,
+      "method": "direct-affine",
+      "edge_overlap": 0.846,
       "skipped": false
     },
     {
@@ -882,8 +959,9 @@
       "index": 79,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 192,
-      "method": "direct",
+      "inliers": 187,
+      "method": "direct-affine",
+      "edge_overlap": 0.868,
       "skipped": false
     },
     {
@@ -893,8 +971,9 @@
       "index": 80,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 227,
-      "method": "direct",
+      "inliers": 212,
+      "method": "direct-affine",
+      "edge_overlap": 0.771,
       "skipped": false
     },
     {
@@ -904,8 +983,9 @@
       "index": 81,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 264,
-      "method": "direct",
+      "inliers": 244,
+      "method": "direct-affine",
+      "edge_overlap": 0.848,
       "skipped": false
     },
     {
@@ -915,8 +995,9 @@
       "index": 82,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 249,
-      "method": "direct",
+      "inliers": 225,
+      "method": "direct-affine",
+      "edge_overlap": 0.802,
       "skipped": false
     },
     {
@@ -926,8 +1007,9 @@
       "index": 83,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 385,
-      "method": "direct",
+      "inliers": 398,
+      "method": "direct-affine",
+      "edge_overlap": 0.789,
       "skipped": false
     },
     {
@@ -937,8 +1019,9 @@
       "index": 84,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 390,
-      "method": "direct",
+      "inliers": 381,
+      "method": "direct-affine",
+      "edge_overlap": 0.803,
       "skipped": false
     },
     {
@@ -948,8 +1031,9 @@
       "index": 85,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 326,
-      "method": "direct",
+      "inliers": 274,
+      "method": "direct-affine",
+      "edge_overlap": 0.786,
       "skipped": false
     },
     {
@@ -959,8 +1043,9 @@
       "index": 86,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 306,
-      "method": "direct",
+      "inliers": 459,
+      "method": "direct-homography",
+      "edge_overlap": 0.867,
       "skipped": false
     },
     {
@@ -970,8 +1055,9 @@
       "index": 87,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 107,
-      "method": "direct",
+      "inliers": 106,
+      "method": "direct-affine",
+      "edge_overlap": 0.764,
       "skipped": false
     },
     {
@@ -981,8 +1067,9 @@
       "index": 88,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 226,
-      "method": "direct",
+      "inliers": 247,
+      "method": "direct-affine",
+      "edge_overlap": 0.8,
       "skipped": false
     },
     {
@@ -992,8 +1079,9 @@
       "index": 89,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 339,
-      "method": "direct",
+      "inliers": 317,
+      "method": "direct-affine",
+      "edge_overlap": 0.769,
       "skipped": false
     },
     {
@@ -1003,8 +1091,9 @@
       "index": 90,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 464,
-      "method": "direct",
+      "inliers": 439,
+      "method": "direct-affine",
+      "edge_overlap": 0.784,
       "skipped": false
     },
     {
@@ -1014,8 +1103,9 @@
       "index": 91,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 210,
-      "method": "direct",
+      "inliers": 314,
+      "method": "direct-homography",
+      "edge_overlap": 0.824,
       "skipped": false
     },
     {
@@ -1025,8 +1115,9 @@
       "index": 92,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 285,
-      "method": "direct",
+      "inliers": 265,
+      "method": "direct-affine",
+      "edge_overlap": 0.784,
       "skipped": false
     },
     {
@@ -1036,8 +1127,9 @@
       "index": 93,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 404,
-      "method": "direct",
+      "inliers": 666,
+      "method": "direct-homography",
+      "edge_overlap": 0.894,
       "skipped": false
     },
     {
@@ -1047,8 +1139,9 @@
       "index": 94,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 279,
-      "method": "direct",
+      "inliers": 283,
+      "method": "direct-affine",
+      "edge_overlap": 0.824,
       "skipped": false
     },
     {
@@ -1058,8 +1151,9 @@
       "index": 95,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 490,
-      "method": "direct",
+      "inliers": 503,
+      "method": "direct-affine",
+      "edge_overlap": 0.832,
       "skipped": false
     },
     {
@@ -1069,8 +1163,9 @@
       "index": 96,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 465,
-      "method": "direct",
+      "inliers": 693,
+      "method": "direct-homography",
+      "edge_overlap": 0.9,
       "skipped": false
     },
     {
@@ -1080,8 +1175,9 @@
       "index": 97,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 1360,
-      "method": "direct",
+      "inliers": 1569,
+      "method": "direct-homography",
+      "edge_overlap": 0.867,
       "skipped": false
     },
     {
@@ -1091,8 +1187,9 @@
       "index": 98,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 1150,
-      "method": "direct",
+      "inliers": 1347,
+      "method": "direct-homography",
+      "edge_overlap": 0.92,
       "skipped": false
     },
     {
@@ -1102,8 +1199,9 @@
       "index": 99,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 1010,
-      "method": "direct",
+      "inliers": 1131,
+      "method": "direct-homography",
+      "edge_overlap": 0.873,
       "skipped": false
     },
     {
@@ -1113,8 +1211,9 @@
       "index": 100,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 677,
-      "method": "direct",
+      "inliers": 652,
+      "method": "direct-affine",
+      "edge_overlap": 0.826,
       "skipped": false
     },
     {
@@ -1124,8 +1223,9 @@
       "index": 101,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 1518,
-      "method": "direct",
+      "inliers": 1499,
+      "method": "direct-homography",
+      "edge_overlap": 0.902,
       "skipped": false
     },
     {
@@ -1135,8 +1235,9 @@
       "index": 102,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 1017,
-      "method": "direct",
+      "inliers": 1137,
+      "method": "direct-affine",
+      "edge_overlap": 0.908,
       "skipped": false
     },
     {
@@ -1146,8 +1247,9 @@
       "index": 103,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 859,
-      "method": "direct",
+      "inliers": 1460,
+      "method": "direct-homography",
+      "edge_overlap": 0.856,
       "skipped": false
     },
     {
@@ -1157,8 +1259,9 @@
       "index": 104,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 1424,
-      "method": "direct",
+      "inliers": 1403,
+      "method": "direct-affine",
+      "edge_overlap": 0.865,
       "skipped": false
     },
     {
@@ -1168,8 +1271,9 @@
       "index": 105,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 1059,
-      "method": "direct",
+      "inliers": 1178,
+      "method": "direct-homography",
+      "edge_overlap": 0.899,
       "skipped": false
     },
     {
@@ -1179,8 +1283,9 @@
       "index": 106,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 1450,
-      "method": "direct",
+      "inliers": 2067,
+      "method": "direct-homography",
+      "edge_overlap": 0.888,
       "skipped": false
     },
     {
@@ -1201,8 +1306,9 @@
       "index": 108,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 1065,
-      "method": "direct",
+      "inliers": 1675,
+      "method": "direct-homography",
+      "edge_overlap": 0.877,
       "skipped": false
     },
     {
@@ -1212,8 +1318,9 @@
       "index": 109,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 886,
-      "method": "direct",
+      "inliers": 1010,
+      "method": "direct-homography",
+      "edge_overlap": 0.869,
       "skipped": false
     },
     {
@@ -1223,8 +1330,9 @@
       "index": 110,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 129,
-      "method": "direct",
+      "inliers": 142,
+      "method": "direct-affine",
+      "edge_overlap": 0.732,
       "skipped": false
     },
     {
@@ -1234,8 +1342,9 @@
       "index": 111,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 189,
-      "method": "direct",
+      "inliers": 228,
+      "method": "direct-homography",
+      "edge_overlap": 0.833,
       "skipped": false
     },
     {
@@ -1245,8 +1354,9 @@
       "index": 112,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 163,
-      "method": "direct",
+      "inliers": 204,
+      "method": "direct-homography",
+      "edge_overlap": 0.779,
       "skipped": false
     },
     {
@@ -1256,8 +1366,9 @@
       "index": 113,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 234,
-      "method": "direct",
+      "inliers": 236,
+      "method": "direct-homography",
+      "edge_overlap": 0.773,
       "skipped": false
     },
     {
@@ -1268,7 +1379,8 @@
       "is_reference": false,
       "quality": "ok",
       "inliers": 132,
-      "method": "direct",
+      "method": "direct-affine",
+      "edge_overlap": 0.764,
       "skipped": false
     },
     {
@@ -1278,8 +1390,9 @@
       "index": 115,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 140,
-      "method": "direct",
+      "inliers": 153,
+      "method": "direct-homography",
+      "edge_overlap": 0.755,
       "skipped": false
     },
     {
@@ -1289,8 +1402,9 @@
       "index": 116,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 136,
-      "method": "direct",
+      "inliers": 162,
+      "method": "direct-homography",
+      "edge_overlap": 0.729,
       "skipped": false
     },
     {
@@ -1300,8 +1414,9 @@
       "index": 117,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 133,
-      "method": "direct",
+      "inliers": 145,
+      "method": "direct-homography",
+      "edge_overlap": 0.752,
       "skipped": false
     },
     {
@@ -1311,8 +1426,9 @@
       "index": 118,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 576,
-      "method": "direct",
+      "inliers": 761,
+      "method": "direct-homography",
+      "edge_overlap": 0.799,
       "skipped": false
     },
     {
@@ -1321,10 +1437,11 @@
       "date": "2026-01-20",
       "index": 119,
       "is_reference": false,
-      "quality": "ok",
-      "inliers": 91,
-      "method": "direct",
-      "skipped": false
+      "quality": "quality-rejected",
+      "inliers": 96,
+      "method": "direct-affine",
+      "edge_overlap": 0.657,
+      "skipped": true
     },
     {
       "filename": "20260121_062700.webp",
@@ -1333,8 +1450,9 @@
       "index": 120,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 529,
-      "method": "direct",
+      "inliers": 519,
+      "method": "direct-affine",
+      "edge_overlap": 0.787,
       "skipped": false
     },
     {
@@ -1344,8 +1462,9 @@
       "index": 121,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 454,
-      "method": "direct",
+      "inliers": 670,
+      "method": "direct-homography",
+      "edge_overlap": 0.734,
       "skipped": false
     },
     {
@@ -1355,8 +1474,9 @@
       "index": 122,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 164,
-      "method": "direct",
+      "inliers": 236,
+      "method": "direct-homography",
+      "edge_overlap": 0.71,
       "skipped": false
     },
     {
@@ -1366,8 +1486,9 @@
       "index": 123,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 329,
-      "method": "direct",
+      "inliers": 407,
+      "method": "direct-homography",
+      "edge_overlap": 0.757,
       "skipped": false
     },
     {
@@ -1377,8 +1498,9 @@
       "index": 124,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 487,
-      "method": "direct",
+      "inliers": 530,
+      "method": "direct-homography",
+      "edge_overlap": 0.778,
       "skipped": false
     },
     {
@@ -1388,8 +1510,9 @@
       "index": 125,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 363,
-      "method": "direct",
+      "inliers": 436,
+      "method": "direct-homography",
+      "edge_overlap": 0.774,
       "skipped": false
     },
     {
@@ -1399,8 +1522,9 @@
       "index": 126,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 391,
-      "method": "direct",
+      "inliers": 432,
+      "method": "direct-homography",
+      "edge_overlap": 0.789,
       "skipped": false
     },
     {
@@ -1410,8 +1534,9 @@
       "index": 127,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 330,
-      "method": "direct",
+      "inliers": 388,
+      "method": "direct-homography",
+      "edge_overlap": 0.796,
       "skipped": false
     },
     {
@@ -1421,8 +1546,9 @@
       "index": 128,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 176,
-      "method": "direct",
+      "inliers": 198,
+      "method": "direct-homography",
+      "edge_overlap": 0.755,
       "skipped": false
     },
     {
@@ -1432,8 +1558,9 @@
       "index": 129,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 318,
-      "method": "direct",
+      "inliers": 286,
+      "method": "direct-affine",
+      "edge_overlap": 0.794,
       "skipped": false
     },
     {
@@ -1443,8 +1570,9 @@
       "index": 130,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 371,
-      "method": "direct",
+      "inliers": 330,
+      "method": "direct-affine",
+      "edge_overlap": 0.778,
       "skipped": false
     },
     {
@@ -1454,8 +1582,9 @@
       "index": 131,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 279,
-      "method": "direct",
+      "inliers": 343,
+      "method": "direct-homography",
+      "edge_overlap": 0.799,
       "skipped": false
     },
     {
@@ -1465,8 +1594,9 @@
       "index": 132,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 109,
-      "method": "direct",
+      "inliers": 114,
+      "method": "direct-affine",
+      "edge_overlap": 0.838,
       "skipped": false
     },
     {
@@ -1476,8 +1606,9 @@
       "index": 133,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 241,
-      "method": "direct",
+      "inliers": 279,
+      "method": "direct-affine",
+      "edge_overlap": 0.791,
       "skipped": false
     },
     {
@@ -1487,8 +1618,9 @@
       "index": 134,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 259,
-      "method": "direct",
+      "inliers": 324,
+      "method": "direct-homography",
+      "edge_overlap": 0.791,
       "skipped": false
     },
     {
@@ -1498,8 +1630,9 @@
       "index": 135,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 323,
-      "method": "direct",
+      "inliers": 365,
+      "method": "direct-homography",
+      "edge_overlap": 0.813,
       "skipped": false
     },
     {
@@ -1509,8 +1642,9 @@
       "index": 136,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 478,
-      "method": "direct",
+      "inliers": 492,
+      "method": "direct-affine",
+      "edge_overlap": 0.817,
       "skipped": false
     },
     {
@@ -1520,8 +1654,9 @@
       "index": 137,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 119,
-      "method": "direct",
+      "inliers": 107,
+      "method": "direct-affine",
+      "edge_overlap": 0.739,
       "skipped": false
     },
     {
@@ -1531,8 +1666,9 @@
       "index": 138,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 188,
-      "method": "direct",
+      "inliers": 233,
+      "method": "direct-homography",
+      "edge_overlap": 0.825,
       "skipped": false
     },
     {
@@ -1542,8 +1678,9 @@
       "index": 139,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 121,
-      "method": "direct",
+      "inliers": 113,
+      "method": "direct-affine",
+      "edge_overlap": 0.836,
       "skipped": false
     },
     {
@@ -1553,8 +1690,9 @@
       "index": 140,
       "is_reference": false,
       "quality": "ok",
-      "inliers": 153,
-      "method": "direct",
+      "inliers": 146,
+      "method": "direct-affine",
+      "edge_overlap": 0.812,
       "skipped": false
     }
   ]
