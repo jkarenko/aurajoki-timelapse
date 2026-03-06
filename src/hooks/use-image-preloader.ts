@@ -2,6 +2,8 @@
 
 import { useEffect, useState, useRef } from "react";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export interface ImageEntry {
   filename: string;
   date: string;
@@ -32,7 +34,7 @@ export function useImagePreloader(manifest: TransformManifest | null) {
 
     validImages.forEach((entry, i) => {
       const img = new Image();
-      img.src = `/aligned/${entry.filename}`;
+      img.src = `${basePath}/aligned/${entry.filename}`;
       img.onload = () => {
         loaded[i] = img;
         count++;

@@ -13,6 +13,7 @@ import { useAnimationLoop } from "@/hooks/use-animation-loop";
 import { useIdleHide } from "@/hooks/use-idle-hide";
 import { formatDate } from "@/lib/format-date";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const BASE_FRAME_DURATION_MS = 500;
 
 export default function Home() {
@@ -24,7 +25,7 @@ export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    fetch("/transforms.json")
+    fetch(`${basePath}/transforms.json`)
       .then((res) => res.json())
       .then((data: TransformManifest) => setManifest(data));
   }, []);
